@@ -12,5 +12,5 @@ Hints:
 
 - Knowing how to read in a file and store the results in memory is a good skill to have, and will come into play for later programming challenges.
 - Choosing the correct data structure for doing lookups is important.
-- What structure would you choose if the lookup was done using the county name instead of license plate number?
+  - What structure would you choose if the lookup was done using the county name instead of license plate number?
 - The next programming challenge will build on this problem, so make sure you complete and understand this program.
