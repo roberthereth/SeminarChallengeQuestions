@@ -20,4 +20,4 @@ Hints:
 * Choose a data structure that allows you to quickly return a result when giving a properly formatted city.
 * Is there a way to avoid issues with the case of the city that the user enters, and still return valid results?  (What if the user enters all upper or lowercase, and the data is stored mixed case?)
 * If a user enters an unknown city, immediately open up the data store, store the new information in it, and then close the data store after, and then update the in-memory structure (the order of updating the in-memory vs. on-disk storage doesn't matter).
-- This avoids the potential for corrupting the file if you fail to close  the file due to program error where the content is not fully written out due to the operating system not flushes out the written data on open files.
+  * This avoids the potential for corrupting the file if you fail to close  the file due to program error where the content is not fully written out due to the operating system not flushes out the written data on open files.
